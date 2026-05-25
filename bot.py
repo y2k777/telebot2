@@ -22,7 +22,7 @@ from telegram.ext import (
 # CONFIG
 # =========================================================
 
-BOT_TOKEN = "os.getenv("BOT_TOKEN")"
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 STAFF_CHAT_ID = -1003941910641
 
